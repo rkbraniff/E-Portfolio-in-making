@@ -47,7 +47,7 @@ i:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: black;
+  background-color: #ffffff;
   width: 0;
   bottom: -3px;
   right: 0;
@@ -59,7 +59,7 @@ i:hover {
 }
 
 .link__hover-effect--black:after {
-  background-color: black;
+  background-color: #ffffff;
 }
 
 .link__hover-effect:hover:after {
@@ -121,12 +121,12 @@ nav {
 
 .nav__link--anchor {
   margin: 0 12px;
-  color: #242424;
+  color: #ffffff;
   font-weight: 700;
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #0e9b2c;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -139,7 +139,7 @@ nav {
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: #0e9b2c;
   font-weight: bold;
   margin: 0 12px;
 }
@@ -212,6 +212,7 @@ nav {
 .about-me__link {
   font-size: 20px;
   padding: 0 16px;
+  color: #0e9b2c;
   animation: fade-up 650ms 400ms backwards;
 }
 
@@ -246,6 +247,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
+  transform: translateX(55px);
   animation: fade-in 1200ms 800ms backwards;
 }
 
